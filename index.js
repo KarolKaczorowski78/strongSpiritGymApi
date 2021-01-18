@@ -5,7 +5,7 @@ const coachesController = require('./controllers/coaches');
 const caloriesController = require('./controllers/calories');
 
 const app = express();
-const port = 80;
+const port = process.env.PORT | 80;
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
