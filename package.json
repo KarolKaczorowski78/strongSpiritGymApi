@@ -1,0 +1,16 @@
+{
+  "name": "ssg_gym",
+  "version": "1.0.0",
+  "description": "SSG backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon index.js"
+  },
+  "author": "Karol Kaczorowski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
